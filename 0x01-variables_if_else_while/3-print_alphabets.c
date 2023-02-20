@@ -6,21 +6,22 @@
  * main - Entry
  * Return: Always 0
  */
+
 int main(void)
 {
-       	char c;
+	char c;
 
 	char d;
 
-	c ='a';
+	c = 'a';
 	d = 'A';
 	while
-		(c <= 'z'){
+		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
 	while
-		(d <= 'Z'){
+		(d <= 'Z') {
 			putchar(d);
 			d++;
 		}
