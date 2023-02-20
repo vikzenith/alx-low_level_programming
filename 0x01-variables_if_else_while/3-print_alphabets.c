@@ -9,9 +9,9 @@
 int main(void)
 {
        	char c;
-	
+
 	char d;
-	
+
 	c ='a';
 	d = 'A';
 	while
@@ -20,8 +20,8 @@ int main(void)
 			c++;
 		}
 	while
-		(c <= 'Z'){
-			putchar(c);
+		(d <= 'Z'){
+			putchar(d);
 			d++;
 		}
 	putchar('\n');
